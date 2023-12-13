@@ -1,0 +1,450 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  height: 130px;
+}
+
+.nav-item {
+  padding-left: 20px;
+}
+
+.carousel-item {
+  height: 742px;
+  top: -10px;
+}
+
+.titleCarousel {
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "David Libre-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 84px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 610px;
+  position: absolute;
+  top: 100px;
+  left: 15%;
+}
+
+.textCarousel {
+  font-family: "David Libre-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 320px;
+  left: 17%;
+  width: 500px;
+}
+
+.divisao {
+  background-color: #25712C;
+  position: relative;
+  height: 50px;
+  width: 100%;
+}
+
+.text {
+  font-family: "Averia Serif Libre-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 135%;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+#inicioText1, .aText1 {
+  text-align: center;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  margin-top: 70px;
+}
+
+#inicioText2 {
+  width: 20%;
+  position: relative;
+  margin-top: 25px;
+  margin-right: 1%;
+}
+
+.alimentacao-saudavel-img {
+  position: relative;
+  width: 17.5%;
+  height: 100%;
+}
+
+#inicioText3 {
+  width: 20%;
+  position: relative;
+  margin-left: 4%;
+}
+
+.tabuleiro-logo {
+  position: relative;
+  width: 17.5%;
+  height: 100%;
+}
+
+#segText1, #tText1{
+  width: 25%;
+  position: relative;
+  left: 23%;
+  margin-top: 60px;
+}
+
+#segText2 {
+  width: 25%;
+  position: relative;
+  left: 23%;
+  margin-top: 20px;
+}
+
+#segText3, #segText5, .tText2 {
+  width: 60%;
+  position: relative;
+  left: 20%;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.pText1 {
+  width: 60%;
+  position: relative;
+  left: 20%;
+  margin-top: 30px;
+  font-size: 120%;
+}
+
+.pText2 {
+  width: 60%;
+  position: relative;
+  left: 20%;
+  margin-top: 30px;
+}
+
+.tText3 {
+  width: 40%;
+  position: relative;
+  left: 30%;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.tText4 {
+  width: 44%;
+  position: relative;
+  left: 28%;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.aText {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.aText2 {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  margin-top: 30px;
+}
+
+.aText3 {
+  width: 30%;
+  position: relative;
+  left: 25%;
+  margin-top: 30px;
+}
+
+.segText4 {
+  width: 40%;
+  position: relative;
+  left: 30%;
+  margin-top: 30px;
+}
+
+.title {
+  font-family: "Averia Serif Libre-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+#inicioTitle {
+  position: relative;
+  margin-top: 140px;
+  font-size: 50px;
+  align-items: center;
+}
+
+.prTitle {
+  position: relative;
+  margin-top: 100px;
+  font-size: 60px;
+  align-items: center;
+  color: #50A333;
+}
+
+#segTitle2, #segTitle5, .aTitle1, .tTitle1, .pTitle1 {
+  position: relative;
+  padding-top: 70px;
+  font-size: 46px;
+  align-items: center;
+  color: #50A333;
+}
+
+#segTitle3, #segTitle4, #aTitle2, .tTitle2 {
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  align-items: center;
+}
+
+.tTitle3, .pTitle2 {
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  align-items: center;
+  color: #146D12;
+}
+
+.tTitle4 {
+  position: relative;
+  font-size: 36px;
+  right: 15%;
+}
+
+.logo {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  right: 10px;
+}
+
+.segAlimImg {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  top: 330px;
+  left: 55%;
+}
+
+.segGraficoImg {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  left: 35%;
+}
+
+.segFundo {
+  margin-top: 150px;
+  background-color: #f3f3f3;
+}
+
+.aPiramideImg {
+  position: relative;
+  width: 40%;
+  height: 560px;
+  left: 30%;
+}
+
+.aEstadoNutriImg {
+  position: relative;
+  width: 40%;
+  height: 560px;
+  left: 30%;
+}
+
+#comidasPng {
+  position: relative;
+  width: 15%;
+  height: 100%;
+}
+
+#vegetaisPng {
+  position: relative;
+  width: 15%;
+  height: 100%;
+}
+
+.transtornosImg {
+  position: absolute;
+  top: 430px;
+  left: 50%;
+  width: 590px;
+  height: 380px;
+}
+
+#anorexiaImg, #bulimiaImg, #compAlimImg {
+  position: relative;
+  left: 25%;
+  width: 50%;
+  height: 90%;
+  margin-bottom: 70px;
+}
+
+.pTabuleiroImgs {
+  position: relative;
+  left: 25%;
+  width: 50%;
+  height: 100%;
+}
+
+.pFig {
+  margin-bottom: 50px;
+}
+
+figcaption {
+  position: relative;
+  width: 50%;
+  left: 25%;
+}
+
+.odsImg {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  left: 25%;
+  margin-bottom: 70px;
+}
+
+.footer {
+  background-color: #25712C;
+  height: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inicioBlock {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.logoFooter {
+  height: 80px;
+  margin-left: 31%;
+  margin-right: 13%;
+}
+
+.textFooter {
+  font-family: "Averia Serif Libre-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 80%;
+  letter-spacing: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 120px;
+  text-align: center;
+}
+
+.textFooterD {
+  font-family: "Averia Serif Libre-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 80%;
+  letter-spacing: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.aCont {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.liText {
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+}
+
+.videoE {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+}
+
+.cardsEquip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.integrante {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.relacionado {
+  border-radius: 20px;
+  background-color: #DEFFDE;
+  margin-top: 50px;
+  width: 50%;
+}
+
+.contAdic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textAdic {
+  max-width: 80%;
+  margin-left: 10%;
+  line-height: 35px;
+  margin-top: 50px;
+}
+
+.linkAdic {
+  max-width: 80%;
+  margin-left: 10%;
+  line-height: 35px;
+  margin-top: 30px;
+}
+
+.barraDiv {
+  width: 85%;
+  margin-left: 7.5%;
+  height: 1px;
+  background-color: #DCDCDC;
+  margin-top: 40px;
+}
+
+.relacionado {
+  margin-bottom: 100px;
+}
+
+.infografico, .aAlimentosImg {
+  height: 100%;
+  width: 35%;
+  padding-bottom: 60px;
+  padding-top: 40px;
+  margin-left: 32.5%;
+}
