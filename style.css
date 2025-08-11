@@ -52,10 +52,11 @@ html {
 .text {
   font-family: "Averia Serif Libre-Light", Helvetica;
   font-weight: 300;
-  color: #000000;
-  font-size: 135%;
-  letter-spacing: 0;
-  line-height: normal;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #242424;
+  text-align: justify;
+  margin-bottom: 2rem;
 }
 
 #inicioText1, .aText1 {
@@ -332,7 +333,6 @@ figcaption {
 }
 
 .inicioBlock {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
