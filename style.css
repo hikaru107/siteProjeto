@@ -13,7 +13,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 57%;
+  width: 50%;
 }
 
 .custom-navbar {
@@ -165,7 +165,6 @@ html {
   font-size: 1.1rem;
   line-height: 1.8;
   color: #242424;
-  text-align: justify;
   margin-bottom: 2rem;
   letter-spacing: 1px;
 }
@@ -175,10 +174,14 @@ html {
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: 0;
-  margin-top: 4rem;
+  margin-top: 8rem;
   margin-bottom: 2rem;
   width: fit-content;
   text-align: center;
+}
+
+.verde {
+  color: #0F8831;
 }
 
 .inicioInfografico {
@@ -200,10 +203,13 @@ html {
   position: relative;
   border: none;
   margin-top: 20px;
+}
+
+.padletButton {
   transition: transform 0.3s ease;
 }
 
-.padlet:hover {
+.padletButton:hover {
   transform: scale(1.02);
 }
 
@@ -212,25 +218,213 @@ html {
   width: 100%;
 }
 
-.padletText {
+.padletTextContainer {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  max-width: 35%;
+}
+
+.padletText {
   color: white;
   font-size: 2.3rem;
   font-weight: bold;
   line-height: 1.4;
-  max-width: 35%;
 }
 
-.padletLText {
+.padletTitle {
+  color: white;
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.padletSubtext {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.LText {
   left: 10%;
   text-align: left;
 }
 
-.padletRText {
+.RText {
   right: 10%;
   text-align: right;
+}
+
+.equipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.equipeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.membro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.membroFoto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.membroNome {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.membroFuncao {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Sobre nós */
+.heroSection {
+  position: relative;
+  width: 100%;
+  height: 680px;
+  background-image: url('imagens/fundo-aboutus.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroText {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 30%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.heroTitle {
+  font-size: 76px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.heroSubtitle {
+  font-size: 28px;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  max-width: 60%;
+}
+
+.heroButton {
+  display: flex;
+  width: 30%;
+  margin-top: 20px;
+  text-decoration: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  color: #2e2e2e;
+  background-color: #fff;
+  border: none;
+  border-radius: 1000px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.heroButton:hover {
+  transform: scale(1.02);
+}
+
+.proposito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.propCard {
+  background-color: #eefff0;
+  border-radius: 20px;
+  padding: 30px;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.propIcon {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.propTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.propText {
+  font-size: 16px;
+  color: #555;
+}
+
+.sustentabilidade {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.sustTitle {
+  font-family: "Averia Serif Libre-Bold", Helvetica;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0;
+  margin-top: 8rem;
+  margin-bottom: 0;
+  width: fit-content;
+  text-align: center;
+}
+
+.sustentabilidadeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sustentabilidadeImg {
+  width: 60%;
+  height: auto;
+  object-fit: contain;
 }
 
 /* Tema: Segurança Alimentar*/
@@ -461,14 +655,6 @@ figcaption {
   left: 25%;
 }
 
-.odsImg {
-  position: relative;
-  height: 100%;
-  width: 50%;
-  left: 25%;
-  margin-bottom: 70px;
-}
-
 .aCont {
   position: relative;
   display: flex;
@@ -489,18 +675,6 @@ figcaption {
   margin-top: 70px;
   margin-bottom: 100px;
   padding-bottom: 50px;
-}
-
-.cardsEquip {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 100px;
-}
-
-.integrante {
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 .relacionado {
