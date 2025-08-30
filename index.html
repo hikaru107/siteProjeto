@@ -11,42 +11,21 @@
 </head>
 
 <body>
-  <script src="script.js"></script>
-  <nav class="navbar navbar-expand-lg" style="background-color: #25712C;">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html"
-              style="color: #ffffff; font-size: 28px;">Início</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="aboutUs.html" style="color: #ffffff; font-size: 28px;">Sobre nós</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="project.html" style="color: #ffffff; font-size: 28px;">Tabuleiro</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="receitas.html" style="color: #ffffff; font-size: 28px;">Receitas</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-              style="color: #ffffff; font-size: 28px;">
-              Temas
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="temasA.html">Alimentação Saudável</a></li>
-              <li><a class="dropdown-item" href="temasS.html">Segurança Alimentar</a></li>
-              <li><a class="dropdown-item" href="temasT.html">Transtornos Alimentares</a></li>
-            </ul>
-          </li>
+  <nav class="custom-navbar">
+    <ul class="custom-menu">
+      <li class="custom-item"><a href="index.html">Início</a></li>
+      <li class="custom-item"><a href="aboutUs.html">Sobre Nós</a></li>
+      <li class="custom-item"><a href="project.html">Tabuleiro</a></li>
+      <li class="custom-item"><a href="receitas.html">Receitas</a></li>
+      <li class="custom-item">
+        <a class="custom-dropdown-btn">Temas ▾</a>
+        <ul class="custom-dropdown-menu">
+          <li><a href="temasA.html">Alimentação Saudável</a></li>
+          <li><a href="temasS.html">Segurança Alimentar</a></li>
+          <li><a href="temasT.html">Transtornos Alimentares</a></li>
         </ul>
-      </div>
-    </div>
+      </li>
+    </ul>
   </nav>
 
   <div id="carouselExampleCaptions" class="carousel slide">
@@ -95,40 +74,76 @@
       <div style="display: flex;">
         <div style="display: flex; flex-direction: column; align-items: center; flex: 3;">
           <p class="text">É um campo de conhecimento e de prática contínua e permanente envolvendo diferentes
-            campos de atuação, setores e profissionais com a intenção de promover a prática autônoma e voluntária de hábitos
-            alimentares saudáveis. Em seu desenvolvimento, a EAN deve usar abordagens e recursos educacionais que proponham
-            reflexões, considerando etapas do sistema alimentar e as interações que com compõem o comportamento alimentar.</p>
+            campos de atuação, setores e profissionais com a intenção de promover a prática autônoma e voluntária de
+            hábitos
+            alimentares saudáveis. Em seu desenvolvimento, a EAN deve usar abordagens e recursos educacionais que
+            proponham
+            reflexões, considerando etapas do sistema alimentar e as interações que com compõem o comportamento
+            alimentar.</p>
           <p class="text">Uma abordagem que utilizamos para apresentar a Educação Alimentar para os jovens
-            foi a criação de um jogo de tabuleiro chamado "Questionário Saudável", você verá mais sobre ele no ícone "Projeto"
-            presente no menu da página, mas basicamente ele aborda os temas Segurança Alimentar, Transtornos Alimentares e
-            Alimentação Saudável e Consumo que estão dentro do contexto de Educação Alimentar. O ícone com o nome "Temas" na
+            foi a criação de um jogo de tabuleiro chamado "Questionário Saudável", você verá mais sobre ele no ícone
+            "Projeto"
+            presente no menu da página, mas basicamente ele aborda os temas Segurança Alimentar, Transtornos Alimentares
+            e
+            Alimentação Saudável e Consumo que estão dentro do contexto de Educação Alimentar. O ícone com o nome
+            "Temas" na
             barra de menu apresentará um pouco sobre esses três temas e as justificativas por temos escolhido eles.</p>
         </div>
         <img class="inicioInfografico" src="imagens/infoInicio.png" style="flex: 2;">
-    </div>
-  </div>
+      </div>
 
-  <footer class="footer">
-    <div style="display: flex; flex-direction: column; align-items: center; padding: 20px;">
-      <p style="color: white; font-size: 18px; margin: 0;">Desenvolvido por Alunos do IFSP - Campus Caraguatatuba</p>
-      <p style="color: white; font-size: 14px; margin: 0;">&copy; 2024 Todos os direitos reservados.</p>
+      <div class="vejamais">
+        <p class="title">Veja mais</p>
+        <a href="https://padlet.com/kaiquemiranda1/consumo-e-educa-o-alimentar-8i98v4f0ujhuqh4r" class="padlet">
+          <img class="padletImage" src="imagens/consumo-e-educacao-alimentar.png" />
+          <p class="padletText padletLText">Consumo e Educação Alimentar</p>
+        </a>
+        <a href="https://padlet.com/silvajulia2007/a-car-na-qu-mica-iscmwtiftejsq9zh" class="padlet">
+          <img class="padletImage" src="imagens/acucar-na-quimica.png" />
+          <p class="padletText padletRText">Açúcar na Química</p>
+        </a>
+        <a href="https://padlet.com/silvajulia2007/biologia-da-cana-de-a-car-ukbc5t8ohvl4hiig" class="padlet">
+          <img class="padletImage" src="imagens/biologia-da-cana-de-acucar.png" />
+          <p class="padletText padletLText">Biologia da Cana de Açúcar</p>
+        </a>
+      </div>
     </div>
-  </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+    <footer class="footer">
+      <div class="footerSection">
+        <h3 class="footerTitle">Menu</h3>
+        <a href="index.html" class="footerLink">Início</a>
+        <a href="aboutUs.html" class="footerLink">Sobre nós</a>
+        <a href="project.html" class="footerLink">Tabuleiro</a>
+        <a href="receitas.html" class="footerLink">Receitas</a>
+      </div>
+      <div class="footerSection">
+        <h3 class="footerTitle">Temas</h3>
+        <a href="temasA.html" class="footerLink">Alimentação Saudável</a>
+        <a href="temasS.html" class="footerLink">Segurança Alimentar</a>
+        <a href="temasT.html" class="footerLink">Transtornos Alimentares</a>
+      </div>
+      <div class="footerSection">
+        <h4 class="footerTitle">Promovendo saúde e bem-estar por meio da alimentação</h4>
+        <p class="footerText">©2023-2025 Saúde na Alimentação.</br>Todos os direitos reservados</p>
+      </div>
+    </footer>
 
-  <div vw class="enabled">
-    <div vw-access-button class="active"></div>
-    <div vw-plugin-wrapper>
-      <div class="vw-plugin-top-wrapper"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
     </div>
-  </div>
-  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-  <script>
-    new window.VLibras.Widget('https://vlibras.gov.br/app');
-  </script>
+    <script src="script.js"></script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
 
 </html>
