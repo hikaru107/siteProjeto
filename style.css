@@ -20,7 +20,7 @@ html {
   background-color: #25712C;
   padding: 0 20px;
   z-index: 1000;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .custom-menu {
@@ -56,7 +56,7 @@ html {
   padding: 0;
   z-index: 999;
   border-radius: 6px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .custom-dropdown-menu li {
@@ -303,7 +303,6 @@ html {
   position: relative;
   width: 100%;
   height: 680px;
-  background-image: url('imagens/fundo-aboutus.png');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -319,7 +318,6 @@ html {
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
 }
 
 .heroTitle {
@@ -375,7 +373,7 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .propIcon {
@@ -427,6 +425,241 @@ html {
   object-fit: contain;
 }
 
+/* Tabuleiro */
+.tabuleiro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.tabuleiroImg {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-top: 50px;
+}
+
+.legenda {
+  font-size: 16px;
+  color: #555;
+}
+
+.cartasContainer {
+  width: 100%;
+  background-color: #DFFFD9;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.cartas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.cartasImg {
+  display: flex;
+  width: 60%;
+  height: auto;
+  object-fit: contain;
+}
+
+.manualText {
+  font-family: "Averia Serif Libre-Light", Helvetica;
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #242424;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.manualButton {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  text-decoration: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #2e9638;
+  border: none;
+  border-radius: 1000px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.manualButton:hover {
+  transform: scale(1.02);
+}
+
+/* Receitas */
+.hidden-card {
+  display: none !important;
+}
+
+.hidden-card a {
+  pointer-events: none;
+  user-select: none;
+}
+
+.receitaCard {
+  width: 100%;
+  height: 290px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  background: #fff;
+  margin-bottom: 40px;
+}
+
+.receitaCard a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+}
+
+.receitaCard img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.receitaCard .receitaCard-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 12px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.05));
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+#conteudo-dinamico .receita {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 100% !important;
+
+  /* Tamanho base / fonte para todo o conteúdo da receita */
+  font-family: "Inter";
+  color: #222 !important;
+  font-size: 18px !important;
+  line-height: 26px !important;
+  font-weight: 400 !important;
+}
+
+#conteudo-dinamico .receita * {
+  font-size: inherit !important;
+  line-height: inherit !important;
+  font-family: inter;
+  color: inherit !important;
+}
+
+#conteudo-dinamico .receita .receita-capa {
+  width: 100% !important;
+  height: 680px !important;
+  object-fit: cover !important;
+  display: block !important;
+  margin-bottom: 100px !important;
+}
+
+#conteudo-dinamico .receita>h2,
+#conteudo-dinamico .receita>.meta,
+#conteudo-dinamico .receita>section {
+  width: 50vw !important;
+  max-width: 900px !important;
+  min-width: 340px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 16px !important;
+}
+
+#conteudo-dinamico .receita h2 {
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  margin: 8px 0 12px 0 !important;
+  text-align: center !important;
+  /* se preferir H2 alinhado à esquerda, altere para left */
+}
+
+/* meta (porções/tempo) */
+#conteudo-dinamico .receita .meta {
+  font-size: 14px !important;
+  color: #6b6b6b !important;
+  text-align: center !important;
+  margin-bottom: 12px !important;
+}
+
+/* seções (ingredientes/modo) */
+#conteudo-dinamico .receita h3 {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  margin: 18px 0 8px 0 !important;
+}
+
+#conteudo-dinamico .receita h4 {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin: 12px 0 8px 0 !important;
+}
+
+/* LISTAS: ocupam 100% do bloco textual (alinha bullets com título) */
+#conteudo-dinamico .receita section ul,
+#conteudo-dinamico .receita section ol {
+  width: 100% !important;
+  padding-left: 28px !important;
+  /* recuo dos bullets/números */
+  margin: 8px 0 18px 0 !important;
+  list-style-position: outside !important;
+}
+
+/* PARÁGRAFOS e ITENS: tamanho herdado do .receita */
+#conteudo-dinamico .receita p,
+#conteudo-dinamico .receita li {
+  /* font-size e line-height herdados via selector universal acima */
+  margin-bottom: 20px !important;
+  text-align: left !important;
+  /* texto interno orientado à esquerda */
+}
+
+/* GARANTE que section também siga a largura do bloco textual */
+#conteudo-dinamico .receita section {
+  width: 50vw !important;
+  max-width: 900px !important;
+  min-width: 340px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 18px !important;
+}
+
+@media (max-width: 900px) {
+
+  #conteudo-dinamico .receita>h2,
+  #conteudo-dinamico .receita>.meta,
+  #conteudo-dinamico .receita>section,
+  #conteudo-dinamico .receita section {
+    width: 95vw !important;
+    min-width: unset !important;
+    max-width: unset !important;
+  }
+}
+
+
 /* Tema: Segurança Alimentar*/
 #segText1,
 #tText1 {
@@ -451,21 +684,6 @@ html {
   left: 20%;
   margin-top: 30px;
   padding-bottom: 40px;
-}
-
-.pText1 {
-  width: 60%;
-  position: relative;
-  left: 20%;
-  margin-top: 30px;
-  font-size: 120%;
-}
-
-.pText2 {
-  width: 60%;
-  position: relative;
-  left: 20%;
-  margin-top: 30px;
 }
 
 .tText3 {
@@ -513,33 +731,6 @@ html {
   margin-top: 30px;
 }
 
-#inicioTitle {
-  position: relative;
-  margin-top: 140px;
-  font-size: 50px;
-  align-items: center;
-}
-
-.prTitle {
-  position: relative;
-  margin-top: 100px;
-  font-size: 60px;
-  align-items: center;
-  color: #50A333;
-}
-
-#segTitle2,
-#segTitle5,
-.aTitle1,
-.tTitle1,
-.pTitle1 {
-  position: relative;
-  padding-top: 70px;
-  font-size: 46px;
-  align-items: center;
-  color: #50A333;
-}
-
 #segTitle3,
 #segTitle4,
 #aTitle2,
@@ -549,16 +740,6 @@ html {
   margin-bottom: 30px;
   font-size: 36px;
   align-items: center;
-}
-
-.tTitle3,
-.pTitle2 {
-  position: relative;
-  margin-top: 70px;
-  margin-bottom: 30px;
-  font-size: 36px;
-  align-items: center;
-  color: #146D12;
 }
 
 .tTitle4 {
@@ -587,11 +768,6 @@ html {
   width: 30%;
   height: 100%;
   left: 35%;
-}
-
-.segFundo {
-  margin-top: 150px;
-  background-color: #f3f3f3;
 }
 
 .aPiramideImg {
@@ -638,23 +814,6 @@ html {
   margin-bottom: 70px;
 }
 
-.pTabuleiroImgs {
-  position: relative;
-  left: 25%;
-  width: 50%;
-  height: 100%;
-}
-
-.pFig {
-  margin-bottom: 50px;
-}
-
-figcaption {
-  position: relative;
-  width: 50%;
-  left: 25%;
-}
-
 .aCont {
   position: relative;
   display: flex;
@@ -666,15 +825,6 @@ figcaption {
   width: 100%;
   position: relative;
   margin-top: 30px;
-}
-
-.videoE {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 70px;
-  margin-bottom: 100px;
-  padding-bottom: 50px;
 }
 
 .relacionado {
@@ -716,7 +866,6 @@ figcaption {
   margin-bottom: 100px;
 }
 
-.infografico,
 .aAlimentosImg {
   height: 100%;
   width: 35%;
