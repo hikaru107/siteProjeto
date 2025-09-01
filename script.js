@@ -218,35 +218,118 @@ document.addEventListener('DOMContentLoaded', () => {
     case 'card7':
       html = `
         <article class="receita">
-          <img class="receita-capa" src="https://www.receiteria.com.br/wp-content/uploads/almondegas-de-carne-com-aveia.jpeg" alt="Almôndegas de carne com aveia">
-          <h2>Receita 7 — Almôndegas</h2>
-          <p class="meta">4 porções • 25 min</p>
-          <section class="ingredientes"><h3>Ingredientes</h3><ul><li>Variação 7</li></ul></section>
-          <section class="modo"><h3>Modo de preparo</h3><ol><li>Passos resumidos.</li></ol></section>
+          <img class="receita-capa" src="https://receitadaboa.com.br/wp-content/uploads/2024/07/iStock-499807145.jpg" alt="Bolo prestígio saudável">
+          <h2>Bolo prestígio saudável</h2>
+          <p class="meta">8 porções • 30 min</p>
+          <section class="ingredientes">
+            <h3>Ingredientes do bolo</h3>
+            <ul>
+              <li>1 ovo</li>
+              <li>1 colher de sopa de óleo de sua preferência</li>
+              <li>1 colher de sopa de leite desnatado</li>
+              <li>2 colheres de sopa de açúcar mascavo ou adoçante</li>
+              <li>2 colheres de sopa de farinha de aveia</li>
+              <li>2 colheres de sopa de polvilho doce</li>
+              <li>1 colher de sopa de cacau em pó</li>
+              <li>1 colher de chá de cheia fermento químico em pó (fermento para bolo)</li>
+            </ul>
+            <h3>Ingredientes da cobertura</h3>
+            <ul>
+              <li>1/2 xícara de chá de leite desnatado</li>
+              <li>1 colher de sopa de cacau em pó</li>
+              <li>1 colher de sopa rasa amido de milho</li>
+              <li>1 colher de sopa de açúcar mascavo</li>
+              <li>Coco ralado para decorar</li>
+            </ul>
+          </section>
+          <section class="modo">
+            <h3>Modo de preparo</h3>
+            <ol>
+              <li>Em uma tigela, misture todos os ingredientes da massa.</li>
+              <li>Depois que a massa estiver lisa e homogênea, transfira para uma forma pequena untada.</li>
+              <li>Leve ao forno preaquecido a 180 °C por aproximadamente 20 minutos. Reserve.</li>
+              <li>Para a cobertura, misture todos os ingredientes em uma panela.</li>
+              <li>Leve ao fogo mexendo sempre até engrossar.</li>
+              <li>Despeje a cobertura no bolo e finalize com coco ralado.</li>
+              <li>E está pronto para servir! Aproveite.</li>
+          </section>
         </article>
       `;
       break;
+
+
+
 
     case 'card8':
       html = `
         <article class="receita">
-          <img class="receita-capa" src="https://www.receiteria.com.br/wp-content/uploads/almondegas-de-carne-com-aveia.jpeg" alt="Almôndegas de carne com aveia">
-          <h2>Receita 8 — Almôndegas</h2>
-          <p class="meta">4 porções • 25 min</p>
-          <section class="ingredientes"><h3>Ingredientes</h3><ul><li>Variação 8</li></ul></section>
-          <section class="modo"><h3>Modo de preparo</h3><ol><li>Passos resumidos.</li></ol></section>
+          <img class="receita-capa" src="https://www.receiteria.com.br/wp-content/uploads/bolinho-de-chuva-saudavel-1.jpeg" alt="Bolinho de chuva saudável">
+          <h2>Bolinho de chuva saudável</h2>
+          <p class="meta">12 Unidades • 35 min</p>
+          
+          <section class="ingredientes">
+            <h3>Ingredientes</h3>
+            <ul>
+              <li>1 banana pequena e madura</li>
+              <li>200 ml de leite de coco</li>
+              <li>2 ovos</li>
+              <li>1 xícara de chá de farinha de aveia</li>
+              <li>1 xícara de chá de mix de farinha sem glúten (ou farinha de arroz)</li>
+              <li>4 colheres de sopa de açúcar demerara</li>
+              <li>1 colher de café de canela em pó</li>
+              <li>1 colher de chá de fermento químico em pó (fermento para bolo)</li>
+              <li>1 colher de sopa de açúcar demerara (para untar)</li>
+              <li>Canela em pó a gosto (para untar)</li>
+            </ul>
+          </section>
+
+          <section class="modo">
+            <h3>Modo de preparo</h3>
+            <ol>
+              <li>Reúna todos os ingredientes.</li>
+              <li>Em um recipiente, coloque a banana amassada e os ovos, misture bem até formar um purê.</li>
+              <li>Acrescente o restante dos ingredientes (menos o fermento) e misture bem.</li>
+              <li>Adicione o fermento e misture até incorporar.</li>
+              <li>Despeje porções da massa em forminhas de mini cupcakes untadas e polvilhadas com uma mistura de açúcar demerara e canela em pó.</li>
+              <li>Finalize polvilhando mais mistura por cima dos bolinhos e leve ao forno preaquecido a 200 °C por cerca de 20 a 25 minutos.</li>
+              <li>Agora é só servir. Bom apetite!</li>
+            </ol>
+          </section>
         </article>
       `;
       break;
 
+
+
     case 'card9':
       html = `
         <article class="receita">
-          <img class="receita-capa" src="https://www.receiteria.com.br/wp-content/uploads/almondegas-de-carne-com-aveia.jpeg" alt="Almôndegas de carne com aveia">
-          <h2>Receita 9 — Almôndegas</h2>
-          <p class="meta">4 porções • 25 min</p>
-          <section class="ingredientes"><h3>Ingredientes</h3><ul><li>Variação 9</li></ul></section>
-          <section class="modo"><h3>Modo de preparo</h3><ol><li>Passos resumidos.</li></ol></section>
+          <img class="receita-capa" src="https://www.receiteria.com.br/wp-content/uploads/bolinho-de-brocolis-saudavel-e1693229893561-730x919.jpg" alt="Bolinho de brócolis saudável">
+          <h2>Bolinho de brócolis saudável</h2>
+          <p class="meta">4 porções • 30 min</p>
+          
+          <section class="ingredientes">
+            <h3>Ingredientes</h3>
+            <ul>
+              <li>1/2 brócolis cozido e picado</li>
+              <li>1 batata cozida e amassada</li>
+              <li>1 ovo</li>
+              <li>2 colheres de sopa de farelo de aveia</li>
+              <li>Sal a gosto</li>
+              <li>Azeite para fritar</li>
+            </ul>
+          </section>
+
+          <section class="modo">
+            <h3>Modo de preparo</h3>
+            <ol>
+              <li>Em uma tigela, misture o brócolis e a batata, mexendo bem até formar uma massa uniforme.</li>
+              <li>Junte o ovo, o farelo de aveia e o sal. Misture novamente para incorporar.</li>
+              <li>Aqueça uma frigideira com um pouco de azeite e, usando uma colher, faça bolinhas com a massa e coloque-as para fritar.</li>
+              <li>Quando dourarem de um lado, vire os bolinhos para fritarem do outro lado.</li>
+              <li>Agora é só servir! Bom apetite.</li>
+            </ol>
+          </section>
         </article>
       `;
       break;
