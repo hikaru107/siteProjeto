@@ -186,7 +186,7 @@ html {
 
 .inicioInfografico {
   width: 100%;
-  max-width: 350px;
+  max-width: 300px;
   height: auto;
   object-fit: contain;
   margin-left: 64px;
@@ -314,7 +314,7 @@ html {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  max-width: 30%;
+  max-width: 40%;
   color: white;
   display: flex;
   flex-direction: column;
@@ -484,7 +484,7 @@ html {
 .manualButton {
   display: flex;
   justify-content: center;
-  width: 25%;
+  width: 35%;
   text-decoration: none;
   padding: 12px 24px;
   font-size: 18px;
@@ -659,217 +659,21 @@ html {
   }
 }
 
-
-/* Tema: Segurança Alimentar*/
-#segText1,
-#tText1 {
-  width: 25%;
-  position: relative;
-  left: 23%;
-  margin-top: 60px;
-}
-
-#segText2 {
-  width: 25%;
-  position: relative;
-  left: 23%;
-  margin-top: 20px;
-}
-
-#segText3,
-#segText5,
-.tText2 {
-  width: 60%;
-  position: relative;
-  left: 20%;
-  margin-top: 30px;
-  padding-bottom: 40px;
-}
-
-.tText3 {
-  width: 40%;
-  position: relative;
-  left: 30%;
-  margin-top: 30px;
-  padding-bottom: 40px;
-}
-
-.tText4 {
-  width: 44%;
-  position: relative;
-  left: 28%;
-  margin-top: 30px;
-  padding-bottom: 40px;
-}
-
-.aText {
-  width: 50%;
-  position: relative;
-  left: 25%;
-  margin-top: 30px;
-  padding-bottom: 40px;
-}
-
-.aText2 {
-  width: 50%;
-  position: relative;
-  left: 25%;
-  margin-top: 30px;
-}
-
-.aText3 {
-  width: 30%;
-  position: relative;
-  left: 25%;
-  margin-top: 30px;
-}
-
-.segText4 {
-  width: 40%;
-  position: relative;
-  left: 30%;
-  margin-top: 30px;
-}
-
-#segTitle3,
-#segTitle4,
-#aTitle2,
-.tTitle2 {
-  position: relative;
-  margin-top: 70px;
-  margin-bottom: 30px;
-  font-size: 36px;
-  align-items: center;
-}
-
-.tTitle4 {
-  position: relative;
-  font-size: 36px;
-  right: 15%;
-}
-
-.logo {
-  width: 110px;
-  height: 110px;
-  position: absolute;
-  right: 10px;
-}
-
-.segAlimImg {
-  position: absolute;
-  width: 600px;
-  height: 400px;
-  top: 330px;
-  left: 55%;
-}
-
-.segGraficoImg {
-  position: relative;
-  width: 30%;
-  height: 100%;
-  left: 35%;
-}
-
-.aPiramideImg {
-  position: relative;
-  width: 40%;
-  height: 560px;
-  left: 30%;
-}
-
-.aEstadoNutriImg {
-  position: relative;
-  width: 40%;
-  height: 560px;
-  left: 30%;
-}
-
-#comidasPng {
-  position: relative;
-  width: 15%;
-  height: 100%;
-}
-
-#vegetaisPng {
-  position: relative;
-  width: 15%;
-  height: 100%;
-}
-
-.transtornosImg {
-  position: absolute;
-  top: 430px;
-  left: 50%;
-  width: 590px;
-  height: 380px;
-}
-
-#anorexiaImg,
-#bulimiaImg,
-#compAlimImg {
-  position: relative;
-  left: 25%;
-  width: 50%;
-  height: 90%;
-  margin-bottom: 70px;
-}
-
-.aCont {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.liText {
+/* Tema: Alimentação Saudável*/
+.temaImg {
   width: 100%;
-  position: relative;
-  margin-top: 30px;
+  margin: 50px 0;
+  border-radius: 50px;
 }
 
-.relacionado {
-  border-radius: 20px;
-  background-color: #DEFFDE;
-  margin-top: 50px;
-  width: 50%;
+.leiaMais {
+  width: 100%;
+  font-size: 0.95rem;
 }
 
-.contAdic {
+.antioxidantes {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex: 2;
 }
 
-.textAdic {
-  max-width: 80%;
-  margin-left: 10%;
-  line-height: 35px;
-  margin-top: 50px;
-}
-
-.linkAdic {
-  max-width: 80%;
-  margin-left: 10%;
-  line-height: 35px;
-  margin-top: 30px;
-}
-
-.barraDiv {
-  width: 85%;
-  margin-left: 7.5%;
-  height: 1px;
-  background-color: #DCDCDC;
-  margin-top: 40px;
-}
-
-.relacionado {
-  margin-bottom: 100px;
-}
-
-.aAlimentosImg {
-  height: 100%;
-  width: 35%;
-  padding-bottom: 60px;
-  padding-top: 40px;
-  margin-left: 32.5%;
-}
+/* Tema: Segurança Alimentar */

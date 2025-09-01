@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -27,66 +28,99 @@
     </ul>
   </nav>
 
-  <p class="prTitle title"><b>Segurança Alimentar</b></p>
-  <p id="segText1" class="text"> De acordo com a Organização das Nações Unidas para a Alimentação e Agricultura (FAO), segurança alimentar é uma "situação na qual todas as pessoas, em todos os momentos, têm acesso físico, social e econômico a recursos suficientes, seguros e alimentos nutritivos que atendam às suas necessidades dietéticas e preferências alimentares para uma vida ativa e saudável". Basicamente ela apresenta o direito à alimentação saudável.</p>
-  <p id="segText2" class="text"> Ela ocorre quando os alimentos que consumimos sejam acessíveis, nutricionais e livres de substâncias nocivas para a nossa saúde.</p>
-  <img src="imagens/SegAlim.jpeg" class="segAlimImg">
+  <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+    <div class="conteudoContainer">
+      <p class="title verde">Segurança Alimentar</p>
+      <p id="segText1" class="text"> De acordo com a Organização das Nações Unidas para a Alimentação e Agricultura
+        (FAO), segurança alimentar é uma "situação na qual todas as pessoas, em todos os momentos, têm acesso físico,
+        social e econômico a recursos suficientes, seguros e alimentos nutritivos que atendam às suas necessidades
+        dietéticas e preferências alimentares para uma vida ativa e saudável". Basicamente ela apresenta o direito à
+        alimentação saudável.</p>
+      <img src="imagens/SegAlim.jpeg" class="temaImg" />
 
-  <div class="segFundo">
-    <p id="segTitle2" class="title">Insegurança Alimentar</p>
-    <p id="segText3" class="text">Basicamente a insegurança alimentar ocorre quando as pessoas não tem acesso à segurança alimentar. Muitos confundem a fome com a insegurança alimentar, pois as duas violam o direito humano de ter acesso a uma alimentação saudável, porém, uma pessoa que sofre de fome, pode se encontrar em uma situação de Insegurança, já uma pessoa nessa condição não necessariamente sofre de fome, pois existe vários graus de intensidade e diversas dimensões para esse problema.</p>
-  </div>
+      <div style="width: 100%;">
+        <p class="title" style="font-size: 28px;">Insegurança Alimentar</p>
+      </div>
+      <p class="text">A insegurança alimentar ocorre quando as pessoas não tem acesso à segurança alimentar. Muitos
+        confundem a fome com a insegurança alimentar, pois as duas violam o direito humano de ter acesso a uma
+        alimentação saudável, porém, uma pessoa que sofre de fome, pode se encontrar em uma situação de Insegurança, já
+        uma pessoa nessa condição não necessariamente sofre de fome, pois existe vários graus de intensidade e diversas
+        dimensões para esse problema.</p>
+      <p class="text">A insegurança alimentar pode ser classificada em três níveis: a leve, caracterizada pelo receio
+        quanto à quantidade e qualidade dos alimentos disponíveis, com preocupação de passar fome no futuro; a moderada,
+        quando a família já enfrenta limitações reais tanto na qualidade quanto na quantidade do que consome; e a grave,
+        marcada pela ausência de alimentos suficientes, resultando diretamente na fome.</p>
 
-  <p id="segTitle3" class="title">Dimensões da insegurança alimentar:</p>
-  <p class="segText4 text">• Disponibilidade: Capacidade do sistema agrícula à atender a demanda de alimentos. Ela depende da situação  agroclimáticas, e fatores socioeconômicos que determina onde e como os agricultores atuam.</p>
-  <p class="segText4 text">• Instabilidade: Possível risco de perda do acesso aos recursos necessários para a alimentação. Os riscos podem ser falta de renda ou reserva insuficiente. Algumas das causas pode ser a situação climática, pois os agrículas sem terra podem ficar sem salário por causa da escassez de chuva ou o aumento do custo de vida.</p>
-  <p class="segText4 text">• Acesso: Distribuições de recursos e direitos para aquisição adequada de alimentos nutritivos. A falta de acesso pode ser devido a situação de pobreza ou por causa de ações de monopólios ou desvio de dinheiro público.</p>
-  <p class="segText4 text">• Utilização: Inclui todos os aspectos de segurança alimentar e qualidade da nutrição. Suas subdimensões são relacionadas à saúde, como condições sanitárias em toda a cadeia alimentar. Por mais que alguém esteja recebendo uma quantidade adequada de comida, isso não importa quando a pessoa sempre adoece ao ingerir esses alimentos.</p>
+      <div style="width: 100%;">
+        <p class="title" style="font-size: 28px; margin: 6rem 0 3rem;">Dimensões da Insegurança Alimentar</p>
+      </div>
+      <ol>
+        <li style="font-size: 22px; font-weight: bold;">
+          <p class="title" style="font-size: 24px; margin: 0;">Disponibilidade</p>
+          <p class="text">Capacidade do sistema agrícola atender a demanda de alimentos. Ela depende da situação
+            agroclimáticas, e fatores socioeconômicos que determina onde e como os agricultores atuam.</p>
+        </li>
+        <li style="font-size: 22px; font-weight: bold;">
+          <p class="title" style="font-size: 24px; margin: 0;">Instabilidade</p>
+          <p class="text">Possível risco de perda do acesso aos recursos necessários para a alimentação. Os riscos podem
+            ser falta de renda ou reserva insuficiente. Algumas das causas pode ser a situação climática, pois os
+            agrícolas sem terra podem ficar sem salário por causa da escassez de chuva ou o aumento do custo de vida.
+          </p>
+        </li>
+        <li style="font-size: 22px; font-weight: bold;">
+          <p class="title" style="font-size: 24px; margin: 0;">Acesso</p>
+          <p class="text">Distribuições de recursos e direitos para aquisição adequada de alimentos nutritivos. A falta
+            de acesso pode ser devido a situação de pobreza ou por causa de ações de monopólios ou desvio de dinheiro
+            público.
+          </p>
+        </li>
+        <li style="font-size: 24px; font-weight: bold;">
+          <p class="title" style="font-size: 22px; margin: 0;">Utilização</p>
+          <p class="text">Inclui todos os aspectos de segurança alimentar e qualidade da nutrição. Suas subdimensões são
+            relacionadas à saúde, como condições sanitárias em toda a cadeia alimentar. Por mais que alguém esteja
+            recebendo uma quantidade adequada de comida, isso não importa quando a pessoa sempre adoece ao ingerir esses
+            alimentos.
+          </p>
+        </li>
+      </ol>
 
-  <p id="segTitle4" class="title">Tipos de insegurança alimentar:</p>
-  <p class="segText4 text">• Leve: Receio em relação a quantidade ou/e qualidade dos alimentos disponíveis, com a preocupação de passar fome futuramente.</p>
-  <p class="segText4 text">• Moderado: Quando a família possui limitação na quantidade e qualidade dos alimentos.</p>
-  <p class="segText4 text">• Grave: A falta de alimentos causando, assim, a fome.</p>
+      <div style="display: flex; margin-top: 20px;">
+        <div style="display: flex; flex-direction: column; align-items: center; flex: 3;">
+          <p class="text">Em 2022 foi publicado o inquérito nacional sobre insegurança alimentar no contexto da covid-19
+            no Brasil, neste documento analisa dados coletados entre novembro de 2021 e abril de 2022, a partir da
+            realização de entrevistas em 12.745 domicílios, em áreas urbanas e rurais de 577 municípios dos 26 estados
+            mais o DF.</p>
+          <p class="text">Os resultados mostram que 33,1 milhões de brasileiros estão passando fome e mais da metade dos
+            brasileiros vive algum grau de insegurança alimentar.</p>
+        </div>
+        <img class="inicioInfografico" src="imagens/grafico.png" style="flex: 2;">
+      </div>
 
-  <div class="segFundo">
-    <p id="segTitle5" class="title">Estudo Relacionado</p>
-    <p id="segText5" class="text"> Em 2022 foi publicado o inquérito nacional sobre insegurança alimentar no contexto da covid-19 no Brasil, neste documento analisa dados coletados entre novembro de 2021 e abril de 2022, a partir da realização de entrevistas em 12.745 domicílios, em áreas urbanas e rurais de 577 municípios dos 26 estados mais o DF.<br><br> 33,1 milhões de brasileiros estão passando fome e mais da metade dos brasileiros vive algum grau de insegurança alimentar.</p>
-    <img src="imagens/grafico.png" class="segGraficoImg" style="margin-bottom: 60px;">
-  </div>
-
-  <p class="title aTitle1">Leia mais</p>
-  <div class="contAdic">
-    <div class="relacionado">
-      <p class="text textAdic">• Um surto alimentar é caracterizado quando duas ou mais pessoas apresentam os mesmos sintomas após a ingestão de alimentos da mesma origem. Segundo Bernardes, et al., (2018), a Toxinfecção Alimentar ainda é um grande problema de saúde pública, o que ocorre pela precariedade no cuidado dos alimentos, principalmente nas fases do plantio, fabricação, manuseio e consumo.</p>
-      <p class="text linkAdic">Leia mais em: <a href="https://ojs.brazilianjournals.com.br/ojs/index.php/BRJD/article/view/12477/10463">Segurança alimentar e serviços de alimentação-revisão de literatura</a></p>
-
-      <div class="barraDiv"></div>
-      <p class="text textAdic">• A intoxicação aguda é aquela na qual os sintomas surgem rapidamen te algumas horas após a exposição excessiva, por curto periodo, a produtos altamente tóxicos. Pode ocorrer de forma leve, moderada ou grave e os sinais e sintomas são nítidos e objetivos. A intoxicação crônica caracteriza-se por surgimen to tardio, em meses ou anos, por exposição pequena ou moderada a produtos tóxicos ou a múltiplos produtos, acarretando danos irreversíveis, do tipo paralisias e neoplasias (Peres, 1999).</p>
-      <p class="text linkAdic" style="padding-bottom: 40px;">Leia mais em: <a href="https://www.scielosp.org/pdf/csc/2005.v10suppl0/91-100/pt">Saúde e segurança alimentar: a questão dos agrotóxicos</a></p>
     </div>
   </div>
-
   <footer class="footer">
-      <div class="footerSection">
-        <h3 class="footerTitle">Menu</h3>
-        <a href="index.html" class="footerLink">Início</a>
-        <a href="aboutUs.html" class="footerLink">Sobre nós</a>
-        <a href="project.html" class="footerLink">Tabuleiro</a>
-        <a href="receitas.html" class="footerLink">Receitas</a>
-      </div>
-      <div class="footerSection">
-        <h3 class="footerTitle">Temas</h3>
-        <a href="temasA.html" class="footerLink">Alimentação Saudável</a>
-        <a href="temasS.html" class="footerLink">Segurança Alimentar</a>
-        <a href="temasT.html" class="footerLink">Transtornos Alimentares</a>
-      </div>
-      <div class="footerSection">
-        <h4 class="footerTitle">Promovendo saúde e bem-estar por meio da alimentação</h4>
-        <p class="footerText">©2023-2025 Saúde na Alimentação.</br>Todos os direitos reservados</p>
-      </div>
-    </footer>
+    <div class="footerSection">
+      <h3 class="footerTitle">Menu</h3>
+      <a href="index.html" class="footerLink">Início</a>
+      <a href="aboutUs.html" class="footerLink">Sobre nós</a>
+      <a href="project.html" class="footerLink">Tabuleiro</a>
+      <a href="receitas.html" class="footerLink">Receitas</a>
+    </div>
+    <div class="footerSection">
+      <h3 class="footerTitle">Temas</h3>
+      <a href="temasA.html" class="footerLink">Alimentação Saudável</a>
+      <a href="temasS.html" class="footerLink">Segurança Alimentar</a>
+      <a href="temasT.html" class="footerLink">Transtornos Alimentares</a>
+    </div>
+    <div class="footerSection">
+      <h4 class="footerTitle">Promovendo saúde e bem-estar por meio da alimentação</h4>
+      <p class="footerText">©2023-2025 Saúde na Alimentação.</br>Todos os direitos reservados</p>
+    </div>
+  </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
   <div vw class="enabled">
     <div vw-access-button class="active"></div>
@@ -97,7 +131,7 @@
   <script src="script.js"></script>
   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
   <script>
-new window.VLibras.Widget('https://vlibras.gov.br/app');
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
 </body>
 
