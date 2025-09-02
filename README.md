@@ -9,6 +9,16 @@ O site disponibilizará informações gerais sobre transtornos alimentares, segu
 
 # 🛠️ Funcionalidades do projeto
 - `Apresentar informações seguras`: o site exibe diversos dados e informações que foram averiguadas e divulgadas por especialistas da área da saúde e nutrição;
-- `Disponibizar artigos científicos`: descrição da funcionalidade 2
+- `Disponibizar artigos científicos`: o site disponilibizará diversos artigos ciéntificos de especialistas na área e da equipe responsável pelo projeto.
 
 # 📖 Como usar
+
+# ✉️ Contato com a equipe
+- Email: `questionario.saudavel@gmail.com`
+
+# 🤵 Integrantes da equipe
+- `Carlos Augusto Camillo de Andrade Junior`: Analista e Redator
+- `Gabrielle Gomes dos Santos`: Designer e Redatora
+- `Hikaru Kawata`: Programador e Designer
+- `Júlia Vieira da Silva`: Gerente de projetos e Redatora
+- `Kaique Oliveira de Miranda`: Analista e Programador
