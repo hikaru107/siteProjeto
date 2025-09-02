@@ -12,7 +12,7 @@ O site disponibilizará informações gerais sobre transtornos alimentares, segu
 - `Disponibizar artigos científicos`: o site disponilibizará diversos artigos ciéntificos de especialistas na área e da equipe responsável pelo projeto.
 
 # 📖 Visual do projeto
-- Link para o vídeo de exibição do site: [https://youtu.be/_Vir6_d3N2g?si=gxAFLw2t1G_Uvj4w]
+- Link para o vídeo de exibição do site: https://youtu.be/_Vir6_d3N2g?si=gxAFLw2t1G_Uvj4w
 
 # ✉️ Contato com a equipe
 - Email: `questionario.saudavel@gmail.com`
