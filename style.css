@@ -8,6 +8,10 @@ html {
   width: 100%;
 }
 
+body {
+  padding-top: 60px;
+}
+
 .conteudoContainer {
   display: flex;
   flex-direction: column;
@@ -17,10 +21,18 @@ html {
 }
 
 .custom-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #25712C;
   padding: 0 20px;
+  height: 60px;
   z-index: 1000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .custom-menu {
@@ -336,9 +348,11 @@ html {
 
 .heroButton {
   display: flex;
+  justify-content: center;
   width: 30%;
   margin-top: 20px;
   text-decoration: none;
+  text-align: center;
   padding: 12px 24px;
   font-size: 18px;
   color: #2e2e2e;
