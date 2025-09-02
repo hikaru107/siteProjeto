@@ -11,7 +11,8 @@ O site disponibilizará informações gerais sobre transtornos alimentares, segu
 - `Apresentar informações seguras`: o site exibe diversos dados e informações que foram averiguadas e divulgadas por especialistas da área da saúde e nutrição;
 - `Disponibizar artigos científicos`: o site disponilibizará diversos artigos ciéntificos de especialistas na área e da equipe responsável pelo projeto.
 
-# 📖 Como usar
+# 📖 Visual do projeto
+- Link para o vídeo de exibição do site: [https://youtu.be/_Vir6_d3N2g?si=gxAFLw2t1G_Uvj4w]
 
 # ✉️ Contato com a equipe
 - Email: `questionario.saudavel@gmail.com`
